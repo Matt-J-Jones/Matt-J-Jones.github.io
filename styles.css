@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Calibri' sans-serif;
-    color: rgb(78, 78, 78);
+    color: rgb(0, 0, 0);
 }
 
 html, body{
@@ -10,7 +10,7 @@ html, body{
 }
 
 html {
-    background-color: rgb(161, 159, 156);
+    background-color: rgb(236, 236, 236);
 }
 
 .main-header {
@@ -38,7 +38,7 @@ h1, h2, h6, p {
 }
 
 .div1 {
-    background-color: wheat;
+    background-color: rgb(161, 159, 156);
     border-radius: 25px;
     padding: 2%;
     width: auto; 
@@ -108,7 +108,7 @@ h1, h2, h6, p {
   
   .text {
     background-color:rgb(78, 78, 78);
-    color: wheat;
+    color: rgb(236, 236, 236);
     font-size: 16px;
     padding: 16px 32px;
 }
