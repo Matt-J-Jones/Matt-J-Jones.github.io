@@ -41,8 +41,8 @@ h1, h2, h6, p {
     background-color: wheat;
     border-radius: 25px;
     padding: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
+    /* padding-left: 2%;
+    padding-right: 2%; */
     /* width: 75%; */
     margin-left: auto;
     margin-right: auto;
