@@ -23,7 +23,7 @@ html {
 
 .profileimg {
     border-radius: 50%;
-    opacity: 0.5;
+    opacity: 0.75;
     max-width: 150px;
     max-height: 150px;
     display: block;
@@ -43,7 +43,7 @@ h1, h2, h4, p {
 }
 
 .div1 {
-    background-color: rgb(161, 159, 156);
+    background-color: rgb(182, 135, 65);
     border-radius: 25px;
     padding: 2%;
     width: auto; 
