@@ -1,6 +1,8 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');* 
+
+{
     box-sizing: border-box;
-    font-family: 'Calibri' sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: rgb(161, 159, 156);
 }
 
@@ -10,7 +12,8 @@ html, body{
 }
 
 html {
-    background-image: url(./img/desert.jpg);
+    /* background-image: url(./img/desert.jpg); */
+    background-color: #564D65;
 }
 
 .main-header {
@@ -18,7 +21,7 @@ html {
 }
 
 .titletext {
-    color: rgb(161, 159, 156);
+    color: #CAC5D3;
 }
 
 .profileimg {
@@ -39,35 +42,39 @@ html {
 }
 h1, h2, h4, p {
     text-align: center;
-    color: rgb(78, 78, 78);
+    color: #2A262B;
 }
 
 .div1 {
-    background-color: rgb(182, 135, 65);
-    border-radius: 25px;
-    padding: 2%;
+    background-color: #3E8989;
+    border-radius: 15px;
+    padding: 1%;
     width: auto; 
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    margin-bottom: 0%;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    align-self: center ;
   }
   
   /* Create four equal columns that sits next to each other */
   .column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 10px;
   }
   
   .column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    border-radius: 20px;
   }
 
   
