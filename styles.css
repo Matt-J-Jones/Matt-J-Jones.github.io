@@ -16,6 +16,10 @@ html {
     background-color: #564D65;
 }
 
+footer {
+  color: #CAC5D3;
+}
+
 .main-header {
     background-blend-mode: multiply;
 }
@@ -40,7 +44,7 @@ html {
     margin-right: auto;
     width: 25%;
 }
-h1, h2, h4, p {
+h1, h2, p {
     text-align: center;
     color: #2A262B;
 }
@@ -83,12 +87,19 @@ h1, h2, h4, p {
       flex: 50%;
       max-width: 50%;
     }
+
+    h2 {
+      font-size: 12px;
+    }
   }
   
   @media screen and (max-width: 600px) {
     .column {
       flex: 100%;
       max-width: 100%;
+    }
+    h2 {
+      font-size: 12px;
     }
   }
   .image:hover {
