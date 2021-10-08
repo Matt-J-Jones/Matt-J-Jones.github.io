@@ -12,7 +12,8 @@ html, body{
 }
 
 html {
-    /* background-image: url(./img/desert.jpg); */
+    background-image: url(./img/bg/lowPolyGridA.svg);
+    background-size: 100%;
     background-color: #564D65;
 }
 
