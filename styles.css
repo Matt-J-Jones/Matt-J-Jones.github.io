@@ -75,8 +75,8 @@ h1, h2, p {
   
   /* Create four equal columns that sits next to each other */
   .column {
-    flex: 50%;
-    max-width: 50%;
+    flex: 33%;
+    max-width: 33%;
     padding: 0 5px;
   }
   
@@ -95,7 +95,7 @@ h1, h2, p {
     }
 
     h2, p {
-      font-size: 12px;
+      font-size: 6px;
     }
     .text{
       padding: 5px;
@@ -104,11 +104,11 @@ h1, h2, p {
   
   @media screen and (max-width: 600px) {
     .column {
-      flex: 100%;
-      max-width: 100%;
+      flex: 75%;
+      max-width: 75%;
     }
     h2, p {
-      font-size: 12px;
+      font-size: 6px;
     }
     .text{
       padding: 5px;
@@ -144,6 +144,7 @@ h1, h2, p {
   .text {
     background-color:rgb(78, 78, 78);
     color: rgb(236, 236, 236);
-    font-size: 16px;
-    padding: 16px 32px;
+    font-size: 15px;
+    padding: 5px;
+
 }
