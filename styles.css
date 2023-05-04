@@ -1,9 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');* 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Press+Start+2P&display=swap');
 
-{
+
+body {
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgb(161, 159, 156);
+    font-family: 'Press Start 2P', cursive;
+    color: #999;
+}
+
+.titletext {
+  color: #999;
+  text-align: end;
+}
+
+h4 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: small;
+}
+
+.link_text {
+  color: #999
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 48
 }
 
 html, body{
@@ -23,10 +46,6 @@ footer {
 
 .main-header {
     background-blend-mode: multiply;
-}
-
-.titletext {
-    color: #CAC5D3;
 }
 
 .profileimg {
@@ -51,77 +70,11 @@ h1, h2, p {
 }
 
 .div1 {
-    background-color: #3E8989;
+    background-color: #333;
     border-radius: 15px;
     padding: 1%;
-    width: auto; 
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
-    margin-bottom: 0%;
-}
-
-.project-box {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-    align-self: center ;
-  }
-  
-  /* Create four equal columns that sits next to each other */
-  .column {
-    flex: 33%;
-    max-width: 33%;
-    padding: 0 5px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-    border-radius: 20px;
-  }
-
-  
-  @media screen and (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-
-    h2, p {
-      font-size: 6px;
-    }
-    .text{
-      padding: 5px;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 75%;
-      max-width: 75%;
-    }
-    h2, p {
-      font-size: 6px;
-    }
-    .text{
-      padding: 5px;
-    }
-    }
-
-  .image:hover {
-    -webkit-filter: blur(4px);
-    filter: blur(4px);
-}
-.container {
-    position: relative;
-    width: 100%;
+    width: auto;
+    margin: 10%;
 }
 .middle {
     transition: .5s ease;
@@ -132,19 +85,4 @@ h1, h2, p {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-}
-.container:hover .image {
-    opacity: 0.3;
-}
-  
-  .container:hover .middle {
-    opacity: 1;
-}
-  
-  .text {
-    background-color:rgb(78, 78, 78);
-    color: rgb(236, 236, 236);
-    font-size: 15px;
-    padding: 5px;
-
 }
