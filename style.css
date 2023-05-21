@@ -13,10 +13,6 @@
   }
   
   .Monitor {
-
-    border-color: red;
-    border-style: dashed;
-
     position: fixed;
     width: 550px;
     height: 400px;
@@ -27,10 +23,6 @@
   }
   
   .Face {
-
-    border-color: red;
-    border-style: dashed;
-
     position: fixed;
     top: 600px;
     left: 1024px;
@@ -38,10 +30,6 @@
   }
 
   .Links {
-
-    border-color: red;
-    border-style: dashed;
-
     position: fixed;
     top: 85%;
     left: 65%;
@@ -52,19 +40,11 @@
   }
 
   .Star {
-
-    border-color: red;
-    border-style: dashed;
-
     width: 450px;
     height: auto;
   }
 
   .StarContainer {
-
-    border-color: red;
-    border-style: dashed;
-
     display: flex;
     flex-direction: column;
     transform: translate(0%, 0%);
@@ -75,18 +55,18 @@
   }
   .Bruno {
     width: 125px;
-    transform: translate(200%, -3500%) rotate(45deg);
+    transform: translate(200%, -3400%) rotate(45deg);
   }
 
   .Pareidolia {
     width: 125px;
-    transform: translate(60%, -4500%) rotate(-45deg);
+    transform: translate(60%, -4400%) rotate(-45deg);
   }
 
   .SelfPortrait {
     width: 125px;
     text-align: center;
-    transform: translate(110%, -1800%) rotate(0deg);
+    transform: translate(110%, -1750%) rotate(0deg);
   }
 
   .NewNormal {
