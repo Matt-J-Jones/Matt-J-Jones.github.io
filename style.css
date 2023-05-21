@@ -1,0 +1,119 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+   body {
+    background-image: url("bg.png");
+    background-color: white;
+    color: #fbdffb;
+    font-family: 'Press Start 2P', cursive;
+    background-size: 2048px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  
+  .Monitor {
+    border-color: red;
+    border-style: dashed;
+    position: fixed;
+    width: 550px;
+    height: 400px;
+    left: 800px;
+    top: 435px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .Face {
+    border-color: red;
+    border-style: dashed;
+
+    position: fixed;
+    top: 600px;
+    left: 1024px;
+    transform: translate(-50%, -68%);
+  }
+
+  .Links {
+    border-color: red;
+    border-style: dashed;
+
+    width:175px;
+    left: 600px;
+    transform: translate(150%, 50%);
+  }
+
+  .Star {
+    border-color: red;
+    border-style: dashed;
+
+    width: 450px;
+    height: auto;
+  }
+
+  .StarContainer {
+    border-color: red;
+    border-style: dashed;
+
+    display: flex;
+    flex-direction: column;
+    transform: translate(0%, 0%);
+  }
+
+  .LinkText {
+    color: #666;
+  }
+  .Bruno {
+    border-color: red;
+    border-style: dashed;
+
+    
+    width: 125px;
+    transform: translate(175%, -1224%) rotate(45deg);
+  }
+
+  .Pareidolia {
+    border-color: red;
+    border-style: dashed;
+
+    width: 125px;
+    transform: translate(60%, -1420%) rotate(-45deg);
+  }
+
+  .SelfPortrait {
+    border-color: red;
+    border-style: dashed;
+
+    width: 125px;
+    text-align: center;
+    transform: translate(110%, -980%) rotate(0deg);
+  }
+
+  .NewNormal {
+    border-color: red;
+    border-style: dashed;
+
+    width: 125px;
+    text-align: center;
+    transform: translate(100%, -680%) rotate(-15deg);
+  }
+
+  .MeMachineEdgar {
+    border-color: red;
+    border-style: dashed;
+
+    width: 125px;
+    text-align: center;
+    transform: translate(185%, -765%) rotate(0deg);
+  }
+
+  .ShoppingTrip {
+    border-color: red;
+    border-style: dashed;
+
+    width: 125px;
+    text-align: left;
+    transform: translate(90%, -925%) rotate(0deg);
+  }
+  
+
+  
